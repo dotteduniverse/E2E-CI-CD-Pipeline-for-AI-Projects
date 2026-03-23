@@ -1,0 +1,19 @@
+ai-ci-cd-template/
+├── README.md
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── Dockerfile
+├── requirements.txt
+├── .env.example
+├── src/
+│   ├── __init__.py
+│   └── main.py                # Simple FastAPI app (example)
+├── tests/
+│   ├── __init__.py
+│   └── test_main.py
+├── terraform/                 # Optional (example for AWS)
+│   ├── main.tf
+│   └── variables.tf
+└── scripts/
+    └── deploy.sh
